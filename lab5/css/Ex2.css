@@ -1,0 +1,40 @@
+body{
+    background-color: #DDDDDD;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+figure img{
+    width: 160px;
+    height: auto;
+    padding-left: 20px;
+
+}
+h1{
+    color: red;
+}
+
+table{
+    height: auto;
+
+}
+
+.titulos{
+    color: red;
+    background-color: #FFFFCC;
+    padding: 10px;
+
+}
+
+.numeros{
+    color: red;
+    background-color: #FFFFCC;
+    padding: 10px;
+}
+
+#fundot{
+    padding: 10px;
+    background-color: orange;
+}

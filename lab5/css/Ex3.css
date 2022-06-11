@@ -1,0 +1,56 @@
+.Topico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-top: 210px;
+}
+h4{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.banner{
+    text-align: center;
+    border: solid 1px black;
+    margin: 100px 400px 0 400px;
+    margin-bottom: 100px;
+}
+.banner p, h2, button{
+    margin: 7px;
+}
+.banner button{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: dimgray;
+    padding: 5px;
+    color: white;
+}
+
+
+.titulo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding-left: 1px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.menu ul li{
+    padding: 7px;
+}
+
+.menu ul li:hover{
+    background-color: gray;
+    border-radius: 8px;
+}
